@@ -1,0 +1,59 @@
+* {
+    font-family: 'Germania One', cursive;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: purple;
+  color: aquamarine;
+  text-shadow: 1px 1px 1px black;
+  font-size: 25px;
+  text-align: center;
+}
+#cifra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#select {
+  font-size: 20px;
+}
+input,
+button {
+  border: none;
+  outline: none;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 30px;
+  background: none;
+}
+main {
+  padding: 25px;
+  box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
+  border-radius: 10px;
+}
+h1 {
+  margin: 0;
+  font-size: bold;
+}
+.brr {
+  display: none;
+}
+
+#input_original,
+#input_resultado,
+#input-segundo {
+  background-color: lightgray;
+}
+#input_original,
+#input_resultado {
+  margin: 10px 0 0;
+  padding: 10px;
+  color: black;
+  font-size: 25px;
+}
